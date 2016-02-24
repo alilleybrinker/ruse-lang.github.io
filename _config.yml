@@ -15,7 +15,9 @@ url: "http://www.ruse-lang.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-# Set the source directory
-source: "src/"
+# Make sure to disable plugins, for compatibility with GitHub Pages
 safe: true
+
+# Exclude certain files
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 
