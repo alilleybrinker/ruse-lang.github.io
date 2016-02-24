@@ -9,4 +9,5 @@ body {
     background-color: $color-bg;
     color: $color-text;
     font-family: $fontFamily-primary;
+    border-top: 0.25em solid $color-bgOffset;
 }
