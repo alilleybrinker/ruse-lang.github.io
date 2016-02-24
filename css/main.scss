@@ -1,15 +1,40 @@
-html {
-  font-size: 16px;
-}
+---
+---
 
-body {
-  font-size: 1rem;
-  line-height: 1.5em;
-  font-family: Verdana, Tahoma, sans-serif;
+/**
+ * ## Main
+ *
+ * This is where all the imports happen. Anything not imported here won't be
+ * included in the final compiled file.
+ */
 
-  color: #222;
-  background-color: #fff;
+// Configuration
+@import 'config/box-sizing';
+@import 'config/color';
+@import 'config/type';
+@import 'config/respond';
+@import 'config/rhythm';
+@import 'config/scale';
+@import 'config/z-index';
 
-  margin: 0;
-}
+// Utility
+@import 'utility/clearfix';
+@import 'utility/pull';
+
+// Base
+@import 'base/normalize';
+@import 'base/body';
+@import 'base/box-sizing';
+@import 'base/forms';
+@import 'base/hr';
+@import 'base/links';
+@import 'base/preformatted';
+@import 'base/print';
+@import 'base/rhythm';
+@import 'base/type';
+@import 'base/blockquote';
+
+// Component
+@import 'components/container';
+
 
