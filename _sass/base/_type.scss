@@ -22,8 +22,20 @@ h6 {
 // The most important header is also the largest, just to make sure that it
 // stands out amongst all the others.
 h1 {
-    font-size: $fontSize-largest;
+    font-size: $fontSize-large;
 }
+
+    h1 a,
+    h1 a:hover,
+    h1 a:focus,
+    h1 a:active,
+    h1 a:visited,
+    h1 a:visited:hover,
+    h1 a:visited:focus,
+    h1 a:visited:active {
+        color: $color-text;
+        text-decoration: none;
+    }
 
 // The second and third most important headers share the same size, and should
 // be differentiated based on other styles.
