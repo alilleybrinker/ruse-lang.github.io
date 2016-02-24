@@ -9,26 +9,14 @@
  * no keyword-config (seriously, the default keyword config are terrible).
  */
 
-//-------------------------------------------------------------------
 // Background and Text
-//-------------------------------------------------------------------
-
-$color-bg: hsla(0, 0%, 100%, 1) !default;
-$color-bgOffset: hsla(60, 44%, 89%, 1) !default;
-$color-bgDarkOffset: hsla(0, 0%, 50%, 1) !default;
-$color-text: hsla(201, 12%, 30%, 1) !default;
-
-//-------------------------------------------------------------------
+$color-bg:           hsla(  0,   0%, 100%, 1) !default;
+$color-bgOffset:     hsla(  0,   0%,  95%, 1) !default;
+$color-text:         hsla(201,  12%,  30%, 1) !default;
+$color-darkText:     hsla(201,  12%,  10%, 1) !default;
 // Links
-//-------------------------------------------------------------------
-
-$color-link: hsla(40, 100%, 50%, 1) !default;
-$color-focusedLink: hsla(40, 100%, 67%, 1) !default;
-$color-visitedLink: hsla(30, 25%, 50%, 1) !default;
-
-//-------------------------------------------------------------------
+$color-link:         hsla(204,  70%,  53%, 1) !default;
+$color-focusedLink:  hsla(204,  64%,  44%, 1) !default;
 // Accents
-//-------------------------------------------------------------------
-
-$color-accent: hsla(20, 67%, 50%, 1) !default;
+$color-accent:       hsla(283,  39%,  53%, 1) !default;
 

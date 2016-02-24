@@ -5,7 +5,7 @@
  * so link styles are one of the most important part of any website design. It
  * should be obvious what state a link is in, and links should provide the same
  * information they provide on every site. This means that all the usual states
- * of links have to properly accounted for, including `:visited`.
+ * of links have to properly accounted for.
  */
 
 // Links default to using a color different from the surrounding text and
@@ -17,24 +17,10 @@ a {
     text-decoration: underline;
 }
 
-    // Once it's been visited the link blends in more but keeps the underline.
-    a:visited {
-        color: $color-visitedLink;
-        text-decoration: underline;
-    }
-
     // A lighter version of the same color indicates a hovered state.
     a:hover,
-    a:focus,
-    a:visited:hover,
-    a:visited:focus {
+    a:focus {
         color: $color-focusedLink;
         outline: 0;
     }
 
-    // And the color changes entirely when the link is clicked.
-    a:active,
-    a:visited:active {
-        color: $color-bgDarkOffset;
-        outline: 0;
-    }

@@ -28,12 +28,8 @@ h1 {
     h1 a,
     h1 a:hover,
     h1 a:focus,
-    h1 a:active,
-    h1 a:visited,
-    h1 a:visited:hover,
-    h1 a:visited:focus,
-    h1 a:visited:active {
-        color: $color-accent;
+    h1 a:active {
+        color: $color-darkText;
         text-decoration: none;
     }
 
