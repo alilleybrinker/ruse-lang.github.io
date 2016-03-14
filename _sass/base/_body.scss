@@ -1,13 +1,10 @@
-/**
- * ## Base: Body
- *
- * Any styles that apply directly to the body element
- */
+// ## Base: Body
+//
+// Any styles that apply directly to the body element
 
-// Reset the colors based on the configuration.
 body {
-    background-color: $color-bg;
-    color: $color-text;
-    font-family: $fontFamily-primary;
-    border-top: 0.5em solid $color-bgOffset;
+	background-color: $color-bg;
+	color: $color-text;
+	font-family: $font-family-primary;
 }
+

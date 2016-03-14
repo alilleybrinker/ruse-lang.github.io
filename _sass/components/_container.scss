@@ -5,11 +5,54 @@
  */
 
 .container {
-    margin: 1em;
+	margin: 1rem;
 
-    @media screen and (min-width: 48rem) {
-        width: 40rem;
-    	  margin: 4rem;
-		}
+	@media screen and (min-width: 48rem) {
+		width: 40rem;
+		margin: 6rem auto;
+	}
+}
+
+h1,
+h2,
+h3 {
+	font-size: $font-size-largest;
+	font-family: $font-family-secondary;
+	color: $color-text--dark;
+
+	a {
+		color: $color-text--dark;
+	}
+}
+
+h2 a,
+h3 .meta {
+	font-weight: 500;
+	font-size: $font-size-small;
+	float: right;
+	color: $color-text;
+}
+
+h2 {
+	font-size: $font-size-larger;
+	color: $color-text--light;
+}
+
+h3 {
+	font-size: $font-size-large;
+
+	.meta {
+		float: none;
+	}
+}
+
+section {
+	margin-top: 4 * $rhythm-base;
+	padding-top: $rhythm-base;
+	border-top: 1px solid $color-bg--off;
+}
+
+.posts {
+	@extend %list-reset;
 }
 

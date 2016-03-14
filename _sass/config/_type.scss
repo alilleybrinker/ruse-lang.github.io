@@ -1,58 +1,25 @@
-/**
- * ## Config: Typography
- *
- * All things typography. Font families, font sizes, font styles. This is all
- * pre-tested to look good, so always make sure to use the values given here,
- * and not just invent your own stuff elsewhere.
- */
+// ## Config: Typography
+//
+// All things typography. Font families, font sizes, font styles. This is all
+// pre-tested to look good, so always make sure to use the values given here,
+// and not just invent your own stuff elsewhere.
 
-//-------------------------------------------------------------------
-// Font Families
-//-------------------------------------------------------------------
+$font-family-primary:   "Verdana", "Tahoma", "sans-serif" !default;
+$font-family-secondary: "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !default;
+$font-family-monospace: "Consolas", "Monaco", "Andale Mono", "monospace" !default;
 
-$fontFamily-primary:   "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !default;
-$fontFamily-secondary: "Georgia", "Times New Roman", "Times", "serif" !default;
-$fontFamily-monospace: "Consolas", "Monaco", "Andale Mono", "monospace" !default;
+$font-size-giga:     3rem    !default;
+$font-size-mega:     2.5rem  !default;
+$font-size-kilo:     2.25rem !default;
+$font-size-jumbo:    2rem    !default;
+$font-size-largest:  1.75rem !default;
+$font-size-larger:   1.5rem  !default;
+$font-size-large:    1.25rem !default;
+$font-size-base:     1rem    !default;
+$font-size-small:    0.9rem  !default;
+$font-size-smaller:  0.8rem  !default;
+$font-size-smallest: 0.7rem  !default;
 
-//-------------------------------------------------------------------
-// Font Sizes
-//-------------------------------------------------------------------
+$line-height-base: 1.5em !default;
+$letter-spacing-base: 0 !default;
 
-$fontSize-giga: 4.5rem !default; // 4 * 18
-$fontSize-mega: 3.975rem !default; // 3.5 * 18
-$fontSize-kilo: 3.375rem !default; // 3 * 18
-
-$fontSize-jumbo: 2.8125rem !default; // 2.5 * 18
-$fontSize-largest: 2.25rem !default; // 2 * 18
-$fontSize-larger: 1.96875rem !default; // 1.75 * 18
-$fontSize-large: 1.40625rem !default; // 1.25 * 18
-
-$fontSize-base: 1.125rem !default; // 1 * 18
-
-$fontSize-small: 0.984375rem !default;
-$fontSize-smaller: .874999912rem !default;
-$fontSize-smallest: 0.75rem !default;
-
-//-------------------------------------------------------------------
-// Line Height
-//-------------------------------------------------------------------
-
-$lineHeight-looser: 1.750em !default;
-$lineHeight-loose: 1.667em !default;
-
-$lineHeight-base: 1.500em !default;
-
-$lineHeight-tight: 1.333em !default;
-$lineHeight-tighter: 1.250em !default;
-
-//-------------------------------------------------------------------
-// Letter Spacing
-//-------------------------------------------------------------------
-
-$letterSpacing-looser: 0.25em !default;
-$letterSpacing-loose: 0.10em !default;
-
-$letterSpacing-normal: 0.00em !default;
-
-$letterSpacing-tight: -0.10em !default;
-$letterSpacing-tighter: -0.25em !default;

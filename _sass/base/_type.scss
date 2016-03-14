@@ -1,9 +1,7 @@
-/**
- * ## Base: Type
- *
- * This sets the standard font sizes and styles for all typography on the site,
- * using values taken directly from the configuration.
- */
+// ## Base: Type
+//
+// This sets the standard font sizes and styles for all typography on the site,
+// using values taken directly from the configuration.
 
 // Set the font size and line height to the base levels on the body element
 // and the headers, and then replace as needed on the headers (exploit the
@@ -15,49 +13,41 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: $fontSize-base;
-    line-height: $lineHeight-base;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
 }
 
 // The most important header is also the largest, just to make sure that it
 // stands out amongst all the others.
 h1 {
-    font-size: $fontSize-large;
+	font-size: $font-size-largest;
 }
-
-    h1 a,
-    h1 a:hover,
-    h1 a:focus,
-    h1 a:active {
-        color: $color-darkText;
-        text-decoration: none;
-    }
 
 // The second and third most important headers share the same size, and should
 // be differentiated based on other styles.
 h2 {
-    font-size: $fontSize-larger;
-    margin-bottom: $verticalMargin-base;
+	font-size: $font-size-larger;
+	margin-bottom: $rhythm-base;
 }
 
 h3 {
-    font-size: $fontSize-larger;
-    margin-top: 0.5 * $verticalMargin-base;
-    margin-bottom: 0.25 * $verticalMargin-base;
+	font-size: $font-size-larger;
+	margin-top: 0.5 * $rhythm-base;
+	margin-bottom: 0.25 * $rhythm-base;
 }
 
 // The fourth and fifth are grouped same as the second and third, and are also
 // differentiated by style.
 h4 {
-    font-size: $fontSize-large;
+	font-size: $font-size-large;
 }
 
 h5 {
-    font-size: $fontSize-large;
+	font-size: $font-size-large;
 }
 
 // The sixth and final header is the same size as standard text, and is
 // differentiated from it solely by style.
 h6 {
-    font-size: $fontSize-base;
+	font-size: $font-size-base;
 }

@@ -1,25 +1,22 @@
 ---
 ---
 
-/**
- * ## Main
- *
- * This is where all the imports happen. Anything not imported here won't be
- * included in the final compiled file.
- */
+// ## Main
+//
+// This is where all the imports happen. Anything not imported here won't be
+// included in the final compiled file.
 
 // Configuration
 @import 'config/box-sizing';
 @import 'config/color';
 @import 'config/type';
-@import 'config/respond';
 @import 'config/rhythm';
 @import 'config/scale';
 @import 'config/z-index';
 
 // Utility
 @import 'utility/clearfix';
-@import 'utility/pull';
+@import 'utility/list-reset';
 
 // Base
 @import 'base/normalize';
@@ -34,7 +31,6 @@
 @import 'base/type';
 @import 'base/blockquote';
 
-// Component
+// Components
 @import 'components/container';
-
 

@@ -1,22 +1,19 @@
-/**
- * ## Config: Colors
- *
- * All config on the site should (nay, must!) come from here. If you need to
- * add a color, first consider whether you really need to (you probably don't),
- * and then add the color to here.
- *
- * All config should be added in HSL or HSLA format. No hex. No RGB. Definitely
- * no keyword-config (seriously, the default keyword config are terrible).
- */
+// ## Config: Colors
+//
+// All config on the site should (nay, must!) come from here. If you need to
+// add a color, first consider whether you really need to (you probably don't),
+// and then add the color to here.
+//
+// All config should be added in HSL or HSLA format. No hex. No RGB. Definitely
+// no keyword-config (seriously, the default keyword config are terrible).
 
-// Background and Text
-$color-bg:           hsla(  0,   0%, 100%, 1) !default;
-$color-bgOffset:     hsla(  0,   0%,  95%, 1) !default;
-$color-text:         hsla(201,  12%,  30%, 1) !default;
-$color-darkText:     hsla(201,  12%,  10%, 1) !default;
-// Links
-$color-link:         hsla(204,  70%,  53%, 1) !default;
-$color-focusedLink:  hsla(204,  64%,  44%, 1) !default;
-// Accents
-$color-accent:       hsla(283,  39%,  53%, 1) !default;
+$color-bg:           hsla(0, 0%, 100%, 1) !default;
+$color-bg--off:      hsla(60, 0%, 89%, 1) !default;
+$color-bg--off-dark: hsla(0, 0%, 50%, 1) !default;
+$color-text:         hsla(201, 12%, 30%, 1) !default;
+$color-text--light:  hsla(0, 0%, 50%, 1) !default;
+$color-text--dark:   hsla(0, 0%, 0%, 1) !default;
+
+$color-link:         hsla(200, 80%, 50%, 1) !default;
+$color-link--focus:  hsla(200, 80%, 67%, 1) !default;
 
