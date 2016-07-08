@@ -12,7 +12,6 @@
 // that they are never confused about what is a link and what isn't.
 a {
 	color: $color-link;
-	text-decoration: none;
 
 	// A lighter version of the same color indicates a hovered state.
 	&:hover,

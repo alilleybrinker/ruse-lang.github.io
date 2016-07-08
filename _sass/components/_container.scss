@@ -13,46 +13,13 @@
 	}
 }
 
-h1,
-h2,
-h3 {
-	font-size: $font-size-largest;
-	font-family: $font-family-secondary;
-	color: $color-text--dark;
-
-	a {
-		color: $color-text--dark;
-	}
+h1 {
+    font-weight: 700;
+    font-family: $font-family-monospace;
 }
 
-h2 a,
-h3 .meta {
-	font-weight: 500;
-	font-size: $font-size-small;
-	float: right;
-	color: $color-text;
-}
-
-h2 {
-	font-size: $font-size-larger;
-	color: $color-text--light;
-}
-
-h3 {
-	font-size: $font-size-large;
-
-	.meta {
-		float: none;
-	}
-}
-
-section {
-	margin-top: 4 * $rhythm-base;
-	padding-top: $rhythm-base;
-	border-top: 1px solid $color-bg--off;
-}
-
-.posts {
-	@extend %list-reset;
+h1 a {
+    color: $color-text--dark;
+    text-decoration: none;
 }
 
