@@ -7,15 +7,14 @@
 .container {
 	margin: 1rem;
 
-	@media screen and (min-width: 48rem) {
-		width: 40rem;
+	@media screen and (min-width: 44rem) {
+		width: 36rem;
 		margin: 6rem auto;
 	}
 }
 
 h1 {
     font-weight: 700;
-    font-family: $font-family-monospace;
 }
 
 h1 a {
