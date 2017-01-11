@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: zh-CN/default
 ---
 
 <h1><a href="{{ site.baseurl }}/">Ruse &mdash; Rust 语言的一个嵌入式脚本方案</a></h1>
