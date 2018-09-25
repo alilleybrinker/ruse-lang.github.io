@@ -9,23 +9,24 @@
                     <img class="media-figure" src="/img/ruse-logo.png" alt="The Ruse language logo">
                     <div class="media-body">
                         <h1><a href="{{ site.baseurl }}/">Ruse</a> <span>An embedded Scheme for Rust</span></h1>
+
+                        <nav>
+                            <ul>
+                                <li><a href="https://github.com/ruse-lang/ruse">ruse-lang/ruse</a> <span>The Ruse compiler, written in Rust.</span></li>
+                                <li><a href="https://github.com/ruse-lang/langs-in-rust">ruse-lang/langs-in-rust</a> <span>A list of languages written in Rust.</span></li>
+                                <li><a href="https://github.com/ruse-lang/stress-free-manifesto">ruse-lang/stress-free-manifesto</a> <span>A manifesto for chill FOSS maintenance.</span></li>
+                                <li><a href="https://github.com/ruse-lang/project-status-buttons">ruse-lang/project-status-buttons</a> <span>Repo buttons for project activity.</span></li>
+                                <li><a href="https://github.com/ruse-lang/ruse-lang.github.io">ruse-lang/ruse-lang.github.io</a> <span>This website.</span></li>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </nav>
+
+                        {{ content }}
+
+                        {% include footer.html %}
                     </div>
                 </div>
-
-                <nav>
-                    <ul>
-                        <li><a href="https://github.com/ruse-lang/ruse">ruse-lang/ruse</a> <span>The Ruse compiler, written in Rust.</span></li>
-                        <li><a href="https://github.com/ruse-lang/langs-in-rust">ruse-lang/langs-in-rust</a> <span>A list of languages written in Rust.</span></li>
-                        <li><a href="https://github.com/ruse-lang/stress-free-manifesto">ruse-lang/stress-free-manifesto</a> <span>A manifesto for chill FOSS maintenance.</span></li>
-                        <li><a href="https://github.com/ruse-lang/project-status-buttons">ruse-lang/project-status-buttons</a> <span>Repo buttons for project activity.</span></li>
-                        <li><a href="https://github.com/ruse-lang/ruse-lang.github.io">ruse-lang/ruse-lang.github.io</a> <span>This website.</span></li>
-                        <div class="clearfix"></div>
-                    </ul>
-                </nav>
-
-                {{ content }}
             </div>
-            {% include footer.html %}
         </div>
     </body>
 </html>
