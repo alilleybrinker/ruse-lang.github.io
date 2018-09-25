@@ -23,6 +23,12 @@ h1 {
 	font-size: $font-size-largest;
 }
 
+h1 span {
+    display: block;
+    font-size: $font-size-base;
+    font-weight: 500;
+}
+
 // The second and third most important headers share the same size, and should
 // be differentiated based on other styles.
 h2 {

@@ -5,12 +5,12 @@
  */
 
 .container {
-	margin: 1rem;
+    margin: 1rem;
 
-	@media screen and (min-width: 44rem) {
-		width: 36rem;
-		margin: 6rem auto;
-	}
+    @media screen and (min-width: 44rem) {
+        width: 36rem;
+        margin: 6rem;
+    }
 }
 
 h1 {
@@ -20,5 +20,23 @@ h1 {
 h1 a {
     color: $color-text--dark;
     text-decoration: none;
+}
+
+img {
+    max-width: 5rem;
+    border-radius: 0.25em;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-figure {
+    margin-right: 1em;
+}
+
+.media-body {
+    flex: 1;
 }
 
