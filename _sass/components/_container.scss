@@ -27,17 +27,19 @@ img {
     border-radius: 0.25em;
 }
 
-.media {
-    display: flex;
-    align-items: flex-start;
-}
+@media screen and (min-width: 49rem) {
+    .media {
+        display: flex;
+        align-items: flex-start;
+    }
 
-.media-figure {
-    margin-right: 2em;
-}
+    .media-figure {
+        margin-right: 2em;
+    }
 
-.media-body {
-    flex: 1;
+    .media-body {
+        flex: 1;
+    }
 }
 
 nav {
