@@ -2,14 +2,6 @@
 layout: default
 ---
 
-<div class="media">
-    <img class="media-figure" src="/img/ruse-logo.png" alt="The Ruse language logo">
-    <div class="media-body">
-        <h1><a href="{{ site.baseurl }}/">Ruse</a> <span>An embedded Scheme for Rust</span></h1>
-    </div>
-</div>
-
-
 [Ruse][ruse-lang] is an embedded Scheme for Rust, like Lua is for C. It is currently in development, and can be [found on GitHub][ruse].
 
 Ruse is a [stress-free project][stress-free], and exists for fun, experimentation, and education. If you're interested in seeing how Scheme can be implemented, and in learning with other contributors about how to make a real programming language, this is the project for you.

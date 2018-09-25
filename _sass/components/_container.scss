@@ -40,3 +40,45 @@ img {
     flex: 1;
 }
 
+nav {
+
+    font-size: 0.8rem;
+    line-height: 1.5em;
+
+    padding-bottom: 2rem;
+    border-bottom: 1px solid hsla(240, 80%, 95%, 1);
+    margin-bottom: 2rem;
+}
+
+nav li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+nav a {
+    font-weight: 700;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-top: 0.5em;
+}
+
+nav li:first-child {
+    margin-top: 0;
+}
+
+nav li span {
+    display: block;
+}
+
+.clearfix {
+    clear: both;
+}
+
