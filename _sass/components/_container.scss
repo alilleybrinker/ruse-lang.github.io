@@ -53,10 +53,12 @@ nav {
     margin-bottom: 2rem;
 }
 
-nav li {
-    display: inline-block;
-    width: 50%;
-    float: left;
+@media screen and (min-width: 49rem) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
 }
 
 nav a {
@@ -92,5 +94,7 @@ footer {
     padding-top: 2rem;
     border-top: 1px solid hsla(240, 80%, 95%, 1);
     margin-top: 2rem;
+
+    padding-bottom: 2rem;
 }
 
